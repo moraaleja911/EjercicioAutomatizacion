@@ -1,0 +1,45 @@
+repositories {
+    mavenLocal()
+    jcenter()
+}
+
+buildscript {
+    repositories {
+        mavenLocal()
+        jcenter()
+    }
+    dependencies {
+        classpath("net.serenity-bdd:serenity-gradle-plugin:2.0.4")
+
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'net.serenity-bdd.aggregator'
+
+ext{
+    serenityVersion = '2.0.52'
+    serenityCucumberVersion = '1.0.15'
+}
+
+dependencies {
+    testCompile "net.serenity-bdd:serenity-core:$rootProject.ext.serenityVersion"
+    testCompile "net.serenity-bdd:serenity-junit:$rootProject.ext.serenityVersion"
+    testCompile 'org.hamcrest:hamcrest:2.1'
+
+    compile "net.serenity-bdd:serenity-screenplay:$rootProject.ext.serenityVersion"
+    compile "net.serenity-bdd:serenity-cucumber4:$rootProject.ext.serenityCucumberVersion"
+    compile "net.serenity-bdd:serenity-screenplay-webdriver:$rootProject.ext.serenityVersion"
+}
+gradle.startParameter.continueOnFailure = true
+
+//PErmite paralelismo, correr n features al mismo tiempo
+//Lanza los escenarios en un hilo diferente
+tasks.withType(Test) {
+    maxParallelForks = Runtime.runtime.availableProcessors()
+}
+test {
+    maxParallelForks = Runtime.runtime.availableProcessors()
+}
