@@ -35,9 +35,11 @@ public class ConsultaProcesosSteps {
     }
     @Cuando("selecciona Ciudad \"(.*)\", entidad \"(.*)\" y numero de radicado \"(.*)\"")
     public void ingresarCiudadEntidadRadicado(String ciudad, String entidad, String nroRadicado) {
-        theActorInTheSpotlight().attemptsTo(Open.browserOn().the(ConsultaProcesosPage.class),
+        theActorInTheSpotlight().attemptsTo(//Open.browserOn().the(ConsultaProcesosPage.class),
                 SelectFromOptions.byVisibleText(ciudad).from(SEL_CIUDAD),
+                WaitUntil.the(SEL_CIUDAD,isClickable()),
                 SelectFromOptions.byVisibleText(entidad).from(SEL_ENTIDAD),
+                WaitUntil.the(SEL_ENTIDAD,isClickable()),
                 Enter.theValue(nroRadicado).into(SEL_NRO_RADICADO)
 
         );
@@ -46,7 +48,7 @@ public class ConsultaProcesosSteps {
     public void verificarActivacionConsulta() {
         theActorInTheSpotlight().should(seeThat("display",
                 Texto.barra(),
-                containsString("Deslice la barra a la derecha para iniciar la consulta. ")
+                containsString("Deslice la barra a la derecha para iniciar la consulta.")
 
         ));
     }

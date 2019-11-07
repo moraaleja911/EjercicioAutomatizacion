@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Proceso Judicial" skipped="0" tests="1" time="0.29" timestamp="2019-10-30 08:37:25"><testcase name="Consulatr el proceso judicial 0000000000"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+com.co.devco.automatizacion.stepdefinitions.ConsultaProcesosSteps.consultarProcesoJudicial(ConsultaProcesosSteps.java:16)&#13;
+✽.que "Alejandra" esta consultando el proceso judicial(src/test/resources/features/consultar_procesos.feature:10)&#13;
+</system-err></testcase></testsuite>
