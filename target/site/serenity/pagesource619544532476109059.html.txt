@@ -1,0 +1,253 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head><link type="text/css" rel="stylesheet" href="/Sierju-Web/app/javax.faces.resource/theme.css?ln=primefaces-aristo"><link type="text/css" rel="stylesheet" href="/Sierju-Web/app/javax.faces.resource/primefaces.css?ln=primefaces"><script type="text/javascript" src="/Sierju-Web/app/javax.faces.resource/jquery/jquery.js?ln=primefaces"></script><script type="text/javascript" src="/Sierju-Web/app/javax.faces.resource/primefaces.js?ln=primefaces"></script><script type="text/javascript" src="/Sierju-Web/app/javax.faces.resource/jquery/jquery-plugins.js?ln=primefaces"></script><script type="text/javascript" src="/Sierju-Web/app/javax.faces.resource/gmap/gmap.js?ln=primefaces"></script>
+
+	<!-- &lt;link rel="stylesheet"
+		href="/Sierju-Web/core/static/css/theme.css"
+		type="text/css" /&gt; -->
+
+
+	<link rel="stylesheet" href="/Sierju-Web/core/static/css/estiloPropuestaPalp.css" type="text/css">
+
+	<link rel="stylesheet" href="/Sierju-Web/core/static/css/jeveris.css" type="text/css">
+
+	<script type="text/javascript" src="/Sierju-Web/core/static/js/mainScripts.js"></script>
+
+	<style type="text/css">
+.ui-widget,.ui-widget .ui-widget {
+	font-size: 93% !important;
+}
+</style>
+
+	<title>Bienvenidos
+	</title><script type="text/javascript">
+
+ window.history.forward();
+
+</script><script type="text/javascript" charset="UTF-8" src="http://maps.google.com/maps-api-v3/api/js/38/11/intl/es_ALL/common.js"></script><script type="text/javascript" charset="UTF-8" src="http://maps.google.com/maps-api-v3/api/js/38/11/intl/es_ALL/util.js"></script></head>
+
+<body>
+	
+	<!-- HEADER -->
+
+	<div style="box-shadow: 0 -5px 12px #C3C3C3">
+		<div class="colorHeader">
+			<div class="header">
+		<!-- Uncomment to enable security -->
+		<!-- Exit -->
+		
+		<div style="float: left;">
+			<img src="../core/static/css/images/cabeceraSierju.png" style="height: 100px;">
+		</div>
+		
+<!-- 		&lt;div style="float: right;"&gt; -->
+<!-- 			&lt;img src="../core/static/css/images/escudoCSJ_72x72.jpg"  style="height: 100px;"/&gt; -->
+<!-- 		&lt;/div&gt; --><img id="j_idt9" height="50px" alt="" src="/Sierju-Web/app/javax.faces.resource/spacer/dot_clear.gif?ln=primefaces">
+
+	<div class="languages">
+<form id="j_idt12" name="j_idt12" method="post" action="/Sierju-Web/app/consultaExternaDespachos-flow?execution=e1s1" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt12" value="j_idt12">
+
+<script type="text/javascript" src="/Sierju-Web/app/javax.faces.resource/jsf.js?ln=javax.faces&amp;stage=Development"></script>
+<a href="#" onclick="mojarra.jsfcljs(document.getElementById('j_idt12'),{'j_idt12:j_idt13':'j_idt12:j_idt13','lang':'en_GB'},'');return false" class="hiddenUnderline">Inglés</a><img id="j_idt12:j_idt15" width="10px" alt="" src="/Sierju-Web/app/javax.faces.resource/spacer/dot_clear.gif?ln=primefaces"><a href="#" onclick="mojarra.jsfcljs(document.getElementById('j_idt12'),{'j_idt12:j_idt16':'j_idt12:j_idt16','lang':'es_ES'},'');return false" class="hiddenUnderline">Español</a><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="e1s1">
+</form>
+	</div>
+	</div>
+		</div>
+	</div>
+	
+	<div align="center" class="dialogCargando"><div id="j_idt20"></div><div id="dialogCargando" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-resizable ui-overlay-hidden" role="dialog" aria-labelledby="dialogCargando_title" aria-hidden="true" aria-live="off" style="width: auto; height: auto; left: 724.5px; top: 327.5px; visibility: hidden; z-index: 1006; display: block;"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top" style=""><span id="dialogCargando_title" class="ui-dialog-title"></span></div><div class="ui-dialog-content ui-widget-content" style="height: auto;"><img id="j_idt21" src="../core/static/css/images/loading.gif" alt=""></div><div class="ui-resizable-handle ui-resizable-n" style="z-index: 1000;"></div><div class="ui-resizable-handle ui-resizable-s" style="z-index: 1000;"></div><div class="ui-resizable-handle ui-resizable-e" style="z-index: 1000;"></div><div class="ui-resizable-handle ui-resizable-w" style="z-index: 1000;"></div><div class="ui-resizable-handle ui-resizable-ne" style="z-index: 1000;"></div><div class="ui-resizable-handle ui-resizable-nw" style="z-index: 1000;"></div><div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se" style="z-index: 1000;"></div><div class="ui-resizable-handle ui-resizable-sw" style="z-index: 1000;"></div></div>
+	</div>
+
+	<div id="main" class="contentMain">
+		<table style="width: 100%;">
+			<tbody><tr>
+<!-- 				&lt;td valign="top" style="width: 15%"&gt; -->
+<!-- 					LEFT MENU -->
+<!-- 					&lt;div id="menu" class="left-menu"&gt; -->
+<!-- 						&lt;ui:insert name="left"&gt; -->
+<!-- 							&lt;ui:include src="menuSierju.xhtml"&gt;&lt;/ui:include&gt; -->
+<!-- 						&lt;/ui:insert&gt; -->
+<!-- 						&lt;p:spacer height="20px" /&gt; -->
+<!-- 					&lt;/div&gt; -->
+<!-- 				&lt;/td&gt; -->
+				<td valign="top" style="width: 99%" class="center">
+					<!-- CONTENT -->
+					<div id="content" class="ui-widget container" style="width: 99%">
+		<script src="http://maps.google.com/maps/api/js?sensor=true|false" type="text/javascript"></script>
+		<script type="text/javascript" src="/Sierju-Web/core/static/js/despachos.js"></script>
+
+		<script type="text/javascript">
+		
+			//Funcion valida direccion o latidud para pintar mapa
+			function direccion(despacho, latitud, longitud, direcc, munic, depart) {
+				
+				if(latitud!= null && longitud != null 
+						&& latitud!= "" && longitud != ""){
+					
+					enviarLatitudLongitud(latitud, longitud);
+					
+				}else{
+				
+					var geocoder;
+					geocoder = new google.maps.Geocoder();
+					var address;
+					var pais = 'Colombia';
+					if (direcc == null || direcc == "NR" || direcc == "NA") {
+						direcc = 0;
+						address = munic + ' ' + depart + ' ' + pais;
+					} else {
+						address = direcc + ' ' + munic + ' ' + depart + ' ' + pais;
+					}
+					geocoder.geocode({
+						'address' : address
+					}, geocodeResult);
+				}
+			}
+	
+			//Funcion que obtienne la latitud y longitud
+			function geocodeResult(results, status) {
+				if (status == google.maps.GeocoderStatus.OK) {
+					var latLng;
+					var lat;
+					var lng;
+					
+					latlng = results[0].geometry.location;
+					lat = latlng.lat();
+					lng = latlng.lng();
+					
+					enviarLatitudLongitud(lat, lng);
+				} else {
+					alert('ERROR : ' + status);
+				}
+			}
+			
+			//Funcion que envia la latitud y longitud al MBean.
+			function enviarLatitudLongitud(lat, lng){
+				
+				document.getElementById('formMapaView:hidden3').value = lat;
+				document.getElementById('formMapaView:hidden4').value = lng;
+				remoteChangeCommand();
+				document.getElementById('formConsultaExterna:mapaext')
+						.click();
+			}
+			
+		</script>
+<form id="formConsultaExterna" name="formConsultaExterna" method="post" action="/Sierju-Web/app/consultaExternaDespachos-flow?execution=e1s1" class="general" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="formConsultaExterna" value="formConsultaExterna">
+<div id="formConsultaExterna:j_idt24" class="ui-panel ui-widget ui-widget-content ui-corner-all" style="border:none"><div id="formConsultaExterna:j_idt24_content" class="ui-panel-content ui-widget-content"><span id="formConsultaExterna:growGestionDespachos"></span><div id="formConsultaExterna:msgDespachoGestion" class="ui-messages ui-widget" aria-live="polite"></div>
+				<fieldset>
+					<div>
+						<h2 align="center">Directorio Judicial</h2> 
+					</div>
+					<div>
+						<h2 align="center">SIERJU-Sistema Estadístico de la Rama	Judicial</h2>
+					</div>
+					
+								
+				</fieldset>
+				
+				<fieldset> 
+					
+					<legend>Búsqueda Despachos</legend>
+					<div align="center"><div id="formConsultaExterna:panelGestionDespachosExterna" class="ui-panel ui-widget ui-widget-content ui-corner-all" style="border:none; width:99%; margin: 0 auto;"><div id="formConsultaExterna:panelGestionDespachosExterna_content" class="ui-panel-content ui-widget-content"><table cellpadding="4" cellspacing="2">
+<tbody>
+<tr>
+<td><label for="formConsultaExterna:inputJurisdicciones">Jurisdicción</label></td>
+<td><span id="formConsultaExterna:inputJurisdicciones" class="ui-autocomplete"><input id="formConsultaExterna:inputJurisdicciones_input" name="formConsultaExterna:inputJurisdicciones_input" type="text" class="ui-autocomplete-input ui-inputfield ui-widget ui-state-default ui-corner-left" autocomplete="off" value="" size="58" role="textbox" aria-disabled="false" aria-readonly="false" aria-multiline="false"><input id="formConsultaExterna:inputJurisdicciones_hinput" name="formConsultaExterna:inputJurisdicciones_hinput" type="hidden" autocomplete="off" value="DISCIPLINARIA / N.A."><button class="ui-button ui-widget ui-state-default ui-corner-right ui-button-icon-only ui-state-focus" type="button"><span class="ui-button-icon-primary ui-icon ui-icon-triangle-1-s"></span><span class="ui-button-text">&nbsp;</span></button></span></td>
+<td></td>
+<td><div id="formConsultaExterna:j_idt29" aria-live="polite"></div></td>
+<td><label for="formConsultaExterna:inputEntidads">Entidad</label></td>
+<td><span id="formConsultaExterna:inputEntidads" class="ui-autocomplete"><input id="formConsultaExterna:inputEntidads_input" name="formConsultaExterna:inputEntidads_input" type="text" class="ui-autocomplete-input ui-inputfield ui-widget ui-state-default ui-corner-left" autocomplete="off" value="" size="58" role="textbox" aria-disabled="false" aria-readonly="false" aria-multiline="false"><input id="formConsultaExterna:inputEntidads_hinput" name="formConsultaExterna:inputEntidads_hinput" type="hidden" autocomplete="off"><button class="ui-button ui-widget ui-state-default ui-corner-right ui-button-icon-only" type="button"><span class="ui-button-icon-primary ui-icon ui-icon-triangle-1-s"></span><span class="ui-button-text">&nbsp;</span></button></span></td>
+<td></td>
+<td><div id="formConsultaExterna:j_idt32" aria-live="polite"></div></td>
+</tr>
+<tr>
+<td><label for="formConsultaExterna:inputConsejos">Consejo</label></td>
+<td><span id="formConsultaExterna:inputConsejos" class="ui-autocomplete capitalized"><input id="formConsultaExterna:inputConsejos_input" name="formConsultaExterna:inputConsejos_input" type="text" class="ui-autocomplete-input ui-inputfield ui-widget ui-state-default ui-corner-left" autocomplete="off" value="" size="58" role="textbox" aria-disabled="false" aria-readonly="false" aria-multiline="false"><input id="formConsultaExterna:inputConsejos_hinput" name="formConsultaExterna:inputConsejos_hinput" type="hidden" autocomplete="off"><button class="ui-button ui-widget ui-state-default ui-corner-right ui-button-icon-only" type="button"><span class="ui-button-icon-primary ui-icon ui-icon-triangle-1-s"></span><span class="ui-button-text">&nbsp;</span></button></span></td>
+<td></td>
+<td><div id="formConsultaExterna:j_idt35" aria-live="polite"></div></td>
+<td><label for="formConsultaExterna:inputEspecialidads">Especialidad</label></td>
+<td><span id="formConsultaExterna:inputEspecialidads" class="ui-autocomplete"><input id="formConsultaExterna:inputEspecialidads_input" name="formConsultaExterna:inputEspecialidads_input" type="text" class="ui-autocomplete-input ui-inputfield ui-widget ui-state-default ui-corner-left" autocomplete="off" value="" size="58" role="textbox" aria-disabled="false" aria-readonly="false" aria-multiline="false"><input id="formConsultaExterna:inputEspecialidads_hinput" name="formConsultaExterna:inputEspecialidads_hinput" type="hidden" autocomplete="off"><button class="ui-button ui-widget ui-state-default ui-corner-right ui-button-icon-only" type="button"><span class="ui-button-icon-primary ui-icon ui-icon-triangle-1-s"></span><span class="ui-button-text">&nbsp;</span></button></span></td>
+<td></td>
+<td><div id="formConsultaExterna:j_idt38" aria-live="polite"></div></td>
+</tr>
+<tr>
+<td><label for="formConsultaExterna:inputDistritos">Distrito</label></td>
+<td><span id="formConsultaExterna:inputDistritos" class="ui-autocomplete"><input id="formConsultaExterna:inputDistritos_input" name="formConsultaExterna:inputDistritos_input" type="text" class="ui-autocomplete-input ui-inputfield ui-widget ui-state-default ui-corner-left" autocomplete="off" value="" size="58" role="textbox" aria-disabled="false" aria-readonly="false" aria-multiline="false"><input id="formConsultaExterna:inputDistritos_hinput" name="formConsultaExterna:inputDistritos_hinput" type="hidden" autocomplete="off"><button class="ui-button ui-widget ui-state-default ui-corner-right ui-button-icon-only" type="button"><span class="ui-button-icon-primary ui-icon ui-icon-triangle-1-s"></span><span class="ui-button-text">&nbsp;</span></button></span></td>
+<td></td>
+<td><div id="formConsultaExterna:j_idt41" aria-live="polite"></div></td>
+<td><label id="formConsultaExterna:j_idt42" class="ui-outputlabel" for="formConsultaExterna:inputDepartamentos_input">Departamento</label></td>
+<td><span id="formConsultaExterna:inputDepartamentos" class="ui-autocomplete"><input id="formConsultaExterna:inputDepartamentos_input" name="formConsultaExterna:inputDepartamentos_input" type="text" class="ui-autocomplete-input ui-inputfield ui-widget ui-state-default ui-corner-left" autocomplete="off" value="" size="58" role="textbox" aria-disabled="false" aria-readonly="false" aria-multiline="false"><input id="formConsultaExterna:inputDepartamentos_hinput" name="formConsultaExterna:inputDepartamentos_hinput" type="hidden" autocomplete="off" value="ANTIOQUIA"><button class="ui-button ui-widget ui-state-default ui-corner-right ui-button-icon-only" type="button"><span class="ui-button-icon-primary ui-icon ui-icon-triangle-1-s"></span><span class="ui-button-text">&nbsp;</span></button></span></td>
+<td></td>
+<td><div id="formConsultaExterna:j_idt44" aria-live="polite"></div></td>
+</tr>
+<tr>
+<td><label for="formConsultaExterna:inputCircuitos">Circuito</label></td>
+<td><span id="formConsultaExterna:inputCircuitos" class="ui-autocomplete"><input id="formConsultaExterna:inputCircuitos_input" name="formConsultaExterna:inputCircuitos_input" type="text" class="ui-autocomplete-input ui-inputfield ui-widget ui-state-default ui-corner-left" autocomplete="off" value="" size="58" role="textbox" aria-disabled="false" aria-readonly="false" aria-multiline="false"><input id="formConsultaExterna:inputCircuitos_hinput" name="formConsultaExterna:inputCircuitos_hinput" type="hidden" autocomplete="off"><button class="ui-button ui-widget ui-state-default ui-corner-right ui-button-icon-only" type="button"><span class="ui-button-icon-primary ui-icon ui-icon-triangle-1-s"></span><span class="ui-button-text">&nbsp;</span></button></span></td>
+<td></td>
+<td><div id="formConsultaExterna:j_idt47" aria-live="polite"></div></td>
+<td><label id="formConsultaExterna:j_idt48" class="ui-outputlabel" for="formConsultaExterna:inputMunicipios_input">Municipio</label></td>
+<td><span id="formConsultaExterna:inputMunicipios" class="ui-autocomplete"><input id="formConsultaExterna:inputMunicipios_input" name="formConsultaExterna:inputMunicipios_input" type="text" class="ui-autocomplete-input ui-inputfield ui-widget ui-state-default ui-corner-left" autocomplete="off" value="" size="58" role="textbox" aria-disabled="false" aria-readonly="false" aria-multiline="false"><input id="formConsultaExterna:inputMunicipios_hinput" name="formConsultaExterna:inputMunicipios_hinput" type="hidden" autocomplete="off" value="MEDELLÍN-ANTIOQUIA"><button class="ui-button ui-widget ui-state-default ui-corner-right ui-button-icon-only" type="button"><span class="ui-button-icon-primary ui-icon ui-icon-triangle-1-s"></span><span class="ui-button-text">&nbsp;</span></button></span></td>
+<td></td>
+<td><div id="formConsultaExterna:j_idt50" aria-live="polite"></div></td>
+</tr>
+<tr>
+<td><label id="formConsultaExterna:j_idt51" class="ui-outputlabel" for="formConsultaExterna:inputArea_input">Área</label></td>
+<td><span id="formConsultaExterna:inputArea" class="ui-autocomplete"><input id="formConsultaExterna:inputArea_input" name="formConsultaExterna:inputArea_input" type="text" class="ui-autocomplete-input ui-inputfield ui-widget ui-state-default ui-corner-left" autocomplete="off" value="" size="58" role="textbox" aria-disabled="false" aria-readonly="false" aria-multiline="false"><input id="formConsultaExterna:inputArea_hinput" name="formConsultaExterna:inputArea_hinput" type="hidden" autocomplete="off"><button class="ui-button ui-widget ui-state-default ui-corner-right ui-button-icon-only" type="button"><span class="ui-button-icon-primary ui-icon ui-icon-triangle-1-s"></span><span class="ui-button-text">&nbsp;</span></button></span></td>
+</tr>
+</tbody>
+</table>
+<img id="formConsultaExterna:j_idt52" width="100" height="10" alt="" src="/Sierju-Web/app/javax.faces.resource/spacer/dot_clear.gif?ln=primefaces">
+						<div align="center"><button id="formConsultaExterna:j_idt54" name="formConsultaExterna:j_idt54" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-left" onclick="PrimeFaces.ab({source:'formConsultaExterna:j_idt54',process:'formConsultaExterna:j_idt54 formConsultaExterna:panelGestionDespachosExterna',update:'formConsultaExterna:divfieldset formConsultaExterna:panelPpalTablaDespachoss'});return false;" type="submit" role="button" aria-disabled="false"><span class="ui-button-icon-left ui-icon ui-c ui-icon-search"></span><span class="ui-button-text ui-c">Buscar</span></button><button id="formConsultaExterna:j_idt55" name="formConsultaExterna:j_idt55" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-left" onclick="PrimeFaces.ab({source:'formConsultaExterna:j_idt55',process:'formConsultaExterna:j_idt55 formConsultaExterna:panelGestionDespachosExterna',update:'formConsultaExterna:panelGestionDespachosExterna formConsultaExterna:divfieldset formConsultaExterna:panelPpalTablaDespachoss'});return false;" type="submit" role="button" aria-disabled="false"><span class="ui-button-icon-left ui-icon ui-c ui-icon-trash"></span><span class="ui-button-text ui-c">Limpiar</span></button>
+						</div></div></div>
+					</div>
+				</fieldset></div></div>
+
+			<div align="center"><div id="formConsultaExterna:panelLoginCarga" class="ui-panel ui-widget ui-widget-content ui-corner-all" style="border:none;background-color: transparent !important;"><div id="formConsultaExterna:panelLoginCarga_content" class="ui-panel-content ui-widget-content"><div id="formConsultaExterna:ajaxStatusPanel" style="width:16px;height:16px;"><div id="formConsultaExterna:ajaxStatusPanel_start" style="display: none;"><img src="../core/static/css/images/loading.gif"></div><div id="formConsultaExterna:ajaxStatusPanel_complete" style="display: block;"></div></div></div></div>
+			</div><div id="formConsultaExterna:divfieldset" class="ui-panel ui-widget ui-widget-content ui-corner-all" style="border:none"><div id="formConsultaExterna:divfieldset_content" class="ui-panel-content ui-widget-content">
+				<fieldset>
+					<legend>Resultados Encontrados: 
+						5871</legend><div id="formConsultaExterna:panelPpalTablaDespachoss" class="ui-panel ui-widget ui-widget-content ui-corner-all" style="border:none;"><div id="formConsultaExterna:panelPpalTablaDespachoss_content" class="ui-panel-content ui-widget-content">
+
+						<div align="right" style="padding-right: 20px;"><button id="formConsultaExterna:j_idt64" name="formConsultaExterna:j_idt64" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-left" type="submit" role="button" aria-disabled="false"><span class="ui-button-icon-left ui-icon ui-c ui-icon-document"></span><span class="ui-button-text ui-c">Exportar</span></button>
+						</div>
+
+						<div align="right" style="padding-right: 20px;"><button id="formConsultaExterna:mapaext" name="formConsultaExterna:mapaext" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-left" onclick="PrimeFaces.ab({source:'formConsultaExterna:mapaext',update:'formMapaView:panelMapa'});return false;" style="display:none" type="submit" role="button" aria-disabled="false"><span class="ui-button-icon-left ui-icon ui-c ui-icon-document"></span><span class="ui-button-text ui-c">fdsfdsf</span></button>
+						</div><hr id="formConsultaExterna:j_idt67" class="ui-separator ui-state-default ui-corner-all" style="border:none">
+						<div class="estiloConsultaExtInt"><div id="formConsultaExterna:tablaDespachosExtInt" class="ui-datatable ui-widget ui-datatable-scrollable"><div id="formConsultaExterna:tablaDespachosExtInt_paginator_top" class="ui-paginator ui-paginator-top ui-widget-header ui-corner-top"><span class="ui-paginator-current">(1 of 1175)</span> <span class="ui-paginator-first ui-state-default ui-corner-all ui-state-disabled"><span class="ui-icon ui-icon-seek-first">p</span></span><span class="ui-paginator-prev ui-state-default ui-corner-all ui-state-disabled"><span class="ui-icon ui-icon-seek-prev">p</span></span><span class="ui-paginator-pages"><span class="ui-paginator-page ui-state-default ui-state-active ui-corner-all">1</span><span class="ui-paginator-page ui-state-default ui-corner-all">2</span><span class="ui-paginator-page ui-state-default ui-corner-all">3</span><span class="ui-paginator-page ui-state-default ui-corner-all">4</span><span class="ui-paginator-page ui-state-default ui-corner-all">5</span><span class="ui-paginator-page ui-state-default ui-corner-all">6</span><span class="ui-paginator-page ui-state-default ui-corner-all">7</span><span class="ui-paginator-page ui-state-default ui-corner-all">8</span><span class="ui-paginator-page ui-state-default ui-corner-all">9</span><span class="ui-paginator-page ui-state-default ui-corner-all">10</span></span><span class="ui-paginator-next ui-state-default ui-corner-all"><span class="ui-icon ui-icon-seek-next">p</span></span><span class="ui-paginator-last ui-state-default ui-corner-all"><span class="ui-icon ui-icon-seek-end">p</span></span><select class="ui-paginator-rpp-options ui-widget ui-state-default ui-corner-left" value="5"><option value="5" selected="selected">5</option><option value="10">10</option><option value="15">15</option></select></div><div class="ui-widget-header ui-datatable-scrollable-header"><div class="ui-datatable-scrollable-header-box" style="margin-right: 15px;"><table role="grid"><thead id="formConsultaExterna:tablaDespachosExtInt_head"><tr role="row"><th id="formConsultaExterna:tablaDespachosExtInt:j_idt69" class="ui-state-default ui-sortable-column" role="columnheader" style="text-align: center; width: 75px;"><span>Jurisdicción</span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span></th><th id="formConsultaExterna:tablaDespachosExtInt:j_idt72" class="ui-state-default ui-sortable-column" role="columnheader" style="text-align: center; width: 75px;"><span>Distrito</span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span></th><th id="formConsultaExterna:tablaDespachosExtInt:j_idt75" class="ui-state-default ui-sortable-column" role="columnheader" style="text-align: center; width: 86px;"><span>Circuito</span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span></th><th id="formConsultaExterna:tablaDespachosExtInt:j_idt78" class="ui-state-default ui-sortable-column" role="columnheader" style="text-align: center; width: 96px;"><span>Municipio</span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span></th><th id="formConsultaExterna:tablaDespachosExtInt:j_idt81" class="ui-state-default ui-sortable-column" role="columnheader" style="text-align: center; width: 84px;"><span>Código Despacho</span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span></th><th id="formConsultaExterna:tablaDespachosExtInt:j_idt84" class="ui-state-default ui-sortable-column" role="columnheader" style="text-align: center; width: 94px;"><span>Nombre</span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span></th><th id="formConsultaExterna:tablaDespachosExtInt:j_idt87" class="ui-state-default ui-sortable-column" role="columnheader" style="text-align: center; width: 94px;"><span>Juez/Magistrado Despacho</span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span></th><th id="formConsultaExterna:tablaDespachosExtInt:j_idt90" class="ui-state-default ui-sortable-column" role="columnheader" style="text-align: center; width: 104px;"><span>Correo Despacho</span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span></th><th id="formConsultaExterna:tablaDespachosExtInt:j_idt93" class="ui-state-default ui-sortable-column" role="columnheader" style="text-align: center; width: 93px;"><span>Dirección</span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span></th><th id="formConsultaExterna:tablaDespachosExtInt:j_idt96" class="ui-state-default" role="columnheader" style="text-align: center; width: 56px;"><span>Ubicación</span></th><th id="formConsultaExterna:tablaDespachosExtInt:j_idt100" class="ui-state-default ui-sortable-column" role="columnheader" style="text-align: center; width: 72px;"><span>Teléfono</span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span></th><th id="formConsultaExterna:tablaDespachosExtInt:j_idt103" class="ui-state-default ui-sortable-column" role="columnheader" style="text-align: center; width: 103px;"><span>Horario de Atencion</span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span></th><th id="formConsultaExterna:tablaDespachosExtInt:j_idt106" class="ui-state-default ui-sortable-column" role="columnheader" style="text-align: center; width: 92px;"><span>Departamento</span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span></th></tr></thead></table></div></div><div class="ui-datatable-scrollable-body" style="margin-right: 15px;"><table role="grid"><colgroup><col style="width: 76px;"><col style="width: 76px;"><col style="width: 87px;"><col style="width: 97px;"><col style="width: 85px;"><col style="width: 95px;"><col style="width: 95px;"><col style="width: 105px;"><col style="width: 94px;"><col style="width: 57px;"><col style="width: 73px;"><col style="width: 104px;"><col style="width: 93px;"></colgroup><tbody id="formConsultaExterna:tablaDespachosExtInt_data" class="ui-datatable-data ui-widget-content"><tr data-ri="0" class="ui-widget-content ui-datatable-even" role="row"><td role="gridcell" style="text-align: center;  width: 70px;"><span style="width: 80px; ">DISCIPLINARIA / N.A.</span></td><td role="gridcell" style="text-align: center;  width: 70px;">ANTIOQUIA</td><td role="gridcell" style="text-align: center;  width: 80px;">ANTIOQUIA</td><td role="gridcell" style="text-align: center;  width: 90px;">ANTIOQUIA</td><td role="gridcell" style="text-align: center;  width: 80px;">050001101001</td><td role="gridcell" style="text-align: center;  width: 90px;">CONSEJO SECCIONAL DE LA JUDICATURA - DESPACHO 1 - ANTIOQUIA - SECRETARÍA</td><td role="gridcell" style="text-align: center;  width: 90px;"></td><td role="gridcell" style="text-align: center;  width: 100px;"><span id="formConsultaExterna:tablaDespachosExtInt:0:correo"></span></td><td role="gridcell" style="text-align: center;  width: 90px;">CARRERA 52#42-73 - EDIFICIO JOSE FELIX RESTREPO</td><td role="gridcell" style="text-align: center;  width: 55px;"><a id="formConsultaExterna:tablaDespachosExtInt:0:j_idt98" href="#" class="ui-commandlink ui-widget" onclick="direccion('','6.24371', '-75.57198',             'CARRERA 52#42-73', 'ANTIOQUIA', 'ANTIOQUIA');PrimeFaces.ab({source:'formConsultaExterna:tablaDespachosExtInt:0:j_idt98',update:'formMapaView:panelMapa'});return false;"><img id="formConsultaExterna:tablaDespachosExtInt:0:mapa" src="../core/static/css/images/map_icon_32x32.png" alt="" style="border:none"></a></td><td role="gridcell" style="text-align: center;  width: 70px;">4-262890</td><td role="gridcell" style="text-align: center;  width:100px;">N.A</td><td role="gridcell" style="text-align: center;  width: 90px;">ANTIOQUIA</td></tr><tr data-ri="1" class="ui-widget-content ui-datatable-odd" role="row"><td role="gridcell" style="text-align: center;  width: 70px;"><span style="width: 80px; ">DISCIPLINARIA / N.A.</span></td><td role="gridcell" style="text-align: center;  width: 70px;">ANTIOQUIA</td><td role="gridcell" style="text-align: center;  width: 80px;">ANTIOQUIA</td><td role="gridcell" style="text-align: center;  width: 90px;">ANTIOQUIA</td><td role="gridcell" style="text-align: center;  width: 80px;">050001101002</td><td role="gridcell" style="text-align: center;  width: 90px;">CONSEJO SECCIONAL DE LA JUDICATURA - DESPACHO 2 - ANTIOQUIA - SECRETARÍA</td><td role="gridcell" style="text-align: center;  width: 90px;"></td><td role="gridcell" style="text-align: center;  width: 100px;"><span id="formConsultaExterna:tablaDespachosExtInt:1:correo"></span></td><td role="gridcell" style="text-align: center;  width: 90px;">CARRERA 52#42-73 - EDIFICIO JOSE FELIX RESTREPO</td><td role="gridcell" style="text-align: center;  width: 55px;"><a id="formConsultaExterna:tablaDespachosExtInt:1:j_idt98" href="#" class="ui-commandlink ui-widget" onclick="direccion('','6.24371', '-75.57198',             'CARRERA 52#42-73', 'ANTIOQUIA', 'ANTIOQUIA');PrimeFaces.ab({source:'formConsultaExterna:tablaDespachosExtInt:1:j_idt98',update:'formMapaView:panelMapa'});return false;"><img id="formConsultaExterna:tablaDespachosExtInt:1:mapa" src="../core/static/css/images/map_icon_32x32.png" alt="" style="border:none"></a></td><td role="gridcell" style="text-align: center;  width: 70px;">4-2627059</td><td role="gridcell" style="text-align: center;  width:100px;">N.A</td><td role="gridcell" style="text-align: center;  width: 90px;">ANTIOQUIA</td></tr><tr data-ri="2" class="ui-widget-content ui-datatable-even" role="row"><td role="gridcell" style="text-align: center;  width: 70px;"><span style="width: 80px; ">DISCIPLINARIA / N.A.</span></td><td role="gridcell" style="text-align: center;  width: 70px;">ANTIOQUIA</td><td role="gridcell" style="text-align: center;  width: 80px;">ANTIOQUIA</td><td role="gridcell" style="text-align: center;  width: 90px;">ANTIOQUIA</td><td role="gridcell" style="text-align: center;  width: 80px;">050001101003</td><td role="gridcell" style="text-align: center;  width: 90px;">CONSEJO SECCIONAL DE LA JUDICATURA - DESPACHO 3 - ANTIOQUIA - SECRETARÍA</td><td role="gridcell" style="text-align: center;  width: 90px;"></td><td role="gridcell" style="text-align: center;  width: 100px;"><span id="formConsultaExterna:tablaDespachosExtInt:2:correo"></span></td><td role="gridcell" style="text-align: center;  width: 90px;">CARRERA 52#42-73 - EDIFICIO JOSÉ FELIX RESTREPO</td><td role="gridcell" style="text-align: center;  width: 55px;"><a id="formConsultaExterna:tablaDespachosExtInt:2:j_idt98" href="#" class="ui-commandlink ui-widget" onclick="direccion('','6.24371', '-75.57198',             'CARRERA 52#42-73', 'ANTIOQUIA', 'ANTIOQUIA');PrimeFaces.ab({source:'formConsultaExterna:tablaDespachosExtInt:2:j_idt98',update:'formMapaView:panelMapa'});return false;"><img id="formConsultaExterna:tablaDespachosExtInt:2:mapa" src="../core/static/css/images/map_icon_32x32.png" alt="" style="border:none"></a></td><td role="gridcell" style="text-align: center;  width: 70px;">4-2627059</td><td role="gridcell" style="text-align: center;  width:100px;">N.A</td><td role="gridcell" style="text-align: center;  width: 90px;">ANTIOQUIA</td></tr><tr data-ri="3" class="ui-widget-content ui-datatable-odd" role="row"><td role="gridcell" style="text-align: center;  width: 70px;"><span style="width: 80px; ">DISCIPLINARIA / N.A.</span></td><td role="gridcell" style="text-align: center;  width: 70px;">ANTIOQUIA</td><td role="gridcell" style="text-align: center;  width: 80px;">ANTIOQUIA</td><td role="gridcell" style="text-align: center;  width: 90px;">ANTIOQUIA</td><td role="gridcell" style="text-align: center;  width: 80px;">050001101200</td><td role="gridcell" style="text-align: center;  width: 90px;">CONSEJO SECCIONAL DE LA JUDICATURA  - UNIDAD DE AUDITORÍA - ANTIOQUIA - SECRETARÍA</td><td role="gridcell" style="text-align: center;  width: 90px;"></td><td role="gridcell" style="text-align: center;  width: 100px;"><span id="formConsultaExterna:tablaDespachosExtInt:3:correo">N.A</span></td><td role="gridcell" style="text-align: center;  width: 90px;">CARRERA 52#42-73 - </td><td role="gridcell" style="text-align: center;  width: 55px;"><a id="formConsultaExterna:tablaDespachosExtInt:3:j_idt98" href="#" class="ui-commandlink ui-widget" onclick="direccion('','6.24371', '-75.57198',             'CARRERA 52#42-73', 'ANTIOQUIA', 'ANTIOQUIA');PrimeFaces.ab({source:'formConsultaExterna:tablaDespachosExtInt:3:j_idt98',update:'formMapaView:panelMapa'});return false;"><img id="formConsultaExterna:tablaDespachosExtInt:3:mapa" src="../core/static/css/images/map_icon_32x32.png" alt="" style="border:none"></a></td><td role="gridcell" style="text-align: center;  width: 70px;">4-</td><td role="gridcell" style="text-align: center;  width:100px;">N.A</td><td role="gridcell" style="text-align: center;  width: 90px;">ANTIOQUIA</td></tr><tr data-ri="4" class="ui-widget-content ui-datatable-even" role="row"><td role="gridcell" style="text-align: center;  width: 70px;"><span style="width: 80px; ">ORDINARIA</span></td><td role="gridcell" style="text-align: center;  width: 70px;">ANTIOQUIA</td><td role="gridcell" style="text-align: center;  width: 80px;">ANTIOQUIA (O)</td><td role="gridcell" style="text-align: center;  width: 90px;">ANTIOQUIA</td><td role="gridcell" style="text-align: center;  width: 80px;">050002204001</td><td role="gridcell" style="text-align: center;  width: 90px;">DESPACHO 001 DE LA SALA PENAL DEL TRIBUNAL SUPERIOR DE ANTIOQUIA </td><td role="gridcell" style="text-align: center;  width: 90px;">PLINIO MENDIETA  PACHECO</td><td role="gridcell" style="text-align: center;  width: 100px;"><span id="formConsultaExterna:tablaDespachosExtInt:4:correo">des01sptsant@ce...</span></td><td role="gridcell" style="text-align: center;  width: 90px;">CARRERA 52 # 42-73 - Palacio de Justicia -La Alpujarra- </td><td role="gridcell" style="text-align: center;  width: 55px;"><a id="formConsultaExterna:tablaDespachosExtInt:4:j_idt98" href="#" class="ui-commandlink ui-widget" onclick="direccion('','6.24371', '-75.57198',             'CARRERA 52 # 42-73', 'ANTIOQUIA', 'ANTIOQUIA');PrimeFaces.ab({source:'formConsultaExterna:tablaDespachosExtInt:4:j_idt98',update:'formMapaView:panelMapa'});return false;"><img id="formConsultaExterna:tablaDespachosExtInt:4:mapa" src="../core/static/css/images/map_icon_32x32.png" alt="" style="border:none"></a></td><td role="gridcell" style="text-align: center;  width: 70px;">2325560-9879887</td><td role="gridcell" style="text-align: center;  width:100px;">8 AM a 12 PM y 1 PM a 5 PM </td><td role="gridcell" style="text-align: center;  width: 90px;">ANTIOQUIA</td></tr></tbody></table></div><div class="ui-widget-header ui-datatable-scrollable-footer"><div class="ui-datatable-scrollable-footer-box" style="margin-right: 15px;"><table role="grid"><tfoot></tfoot></table></div></div><div id="formConsultaExterna:tablaDespachosExtInt_paginator_bottom" class="ui-paginator ui-paginator-bottom ui-widget-header ui-corner-bottom"><span class="ui-paginator-current">(1 of 1175)</span> <span class="ui-paginator-first ui-state-default ui-corner-all ui-state-disabled"><span class="ui-icon ui-icon-seek-first">p</span></span><span class="ui-paginator-prev ui-state-default ui-corner-all ui-state-disabled"><span class="ui-icon ui-icon-seek-prev">p</span></span><span class="ui-paginator-pages"><span class="ui-paginator-page ui-state-default ui-state-active ui-corner-all">1</span><span class="ui-paginator-page ui-state-default ui-corner-all">2</span><span class="ui-paginator-page ui-state-default ui-corner-all">3</span><span class="ui-paginator-page ui-state-default ui-corner-all">4</span><span class="ui-paginator-page ui-state-default ui-corner-all">5</span><span class="ui-paginator-page ui-state-default ui-corner-all">6</span><span class="ui-paginator-page ui-state-default ui-corner-all">7</span><span class="ui-paginator-page ui-state-default ui-corner-all">8</span><span class="ui-paginator-page ui-state-default ui-corner-all">9</span><span class="ui-paginator-page ui-state-default ui-corner-all">10</span></span><span class="ui-paginator-next ui-state-default ui-corner-all"><span class="ui-icon ui-icon-seek-next">p</span></span><span class="ui-paginator-last ui-state-default ui-corner-all"><span class="ui-icon ui-icon-seek-end">p</span></span><select class="ui-paginator-rpp-options ui-widget ui-state-default ui-corner-left" value="5"><option value="5" selected="selected">5</option><option value="10">10</option><option value="15">15</option></select></div><input type="hidden" id="formConsultaExterna:tablaDespachosExtInt_scrollState" name="formConsultaExterna:tablaDespachosExtInt_scrollState" autocomplete="off" value="0,0"></div>
+						</div></div></div>
+					<div class="datalist-noborder"><div id="formConsultaExterna:j_idt111" class="ui-datalist ui-widget"><div id="formConsultaExterna:j_idt111_content" class="ui-datalist-content ui-widget-content"><dl id="formConsultaExterna:j_idt111_list" class="ui-datalist-data"><dt class="ui-datalist-item">
+        					Fuente : SIERJU_BI
+        			    </dt><dt class="ui-datalist-item">
+        					Consejo Superior de la Judicatura
+        			    </dt><dt class="ui-datalist-item">
+        					 -.-
+        			    </dt></dl></div></div>
+					</div>
+				</fieldset></div></div><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="e1s1">
+</form>
+<form id="formMapaView" name="formMapaView" method="post" action="/Sierju-Web/app/consultaExternaDespachos-flow?execution=e1s1" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="formMapaView" value="formMapaView">
+<div id="formMapaView:popUpConsultaExterna" class="ui-dialog ui-widget ui-widget-content ui-overlay-hidden ui-corner-all ui-shadow ui-draggable" style="width: auto; margin: 0px auto; height: auto;" role="dialog" aria-labelledby="formMapaView:popUpConsultaExterna_title" aria-hidden="true"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top"><span id="formMapaView:popUpConsultaExterna_title" class="ui-dialog-title">Mapa Consulta Externa</span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" role="button"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" style="height: auto;"></div></div><input id="formMapaView:hidden3" type="hidden" name="formMapaView:hidden3"><input id="formMapaView:hidden4" type="hidden" name="formMapaView:hidden4"><script type="text/javascript">remoteChangeCommand = function() {PrimeFaces.ab({source:'formMapaView:j_idt115',formId:'formMapaView',process:'formMapaView:hidden3 formMapaView:hidden4',params:arguments[0]});}</script>
+			
+			<br>
+			<br><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="e1s1">
+</form>
+<form id="formCargos" name="formCargos" method="post" action="/Sierju-Web/app/consultaExternaDespachos-flow?execution=e1s1" class="general" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="formCargos" value="formCargos">
+<div id="formCargos:popUpConsultaCargos" class="ui-dialog ui-widget ui-widget-content ui-overlay-hidden ui-corner-all ui-shadow" style="width: auto; margin: 0px auto; height: auto;" role="dialog" aria-labelledby="formCargos:popUpConsultaCargos_title" aria-hidden="true"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top"><span id="formCargos:popUpConsultaCargos_title" class="ui-dialog-title">Despachos</span></div><div class="ui-dialog-content ui-widget-content" style="height: auto;"></div></div><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="e1s1">
+</form><img id="j_idt133" height="20px" alt="" src="/Sierju-Web/app/javax.faces.resource/spacer/dot_clear.gif?ln=primefaces">
+					</div>
+				</td>
+			</tr>
+		</tbody></table>
+
+
+	</div>
+	<!-- FOOTER -->
+	<div id="footer" class="footer" style="display: table;">
+	<br>
+	<div>© Copyright 2014 everis group</div>
+	<br>
+
+	</div>
+<div id="textarea_simulator" style="position: absolute; top: 0px; left: 0px; visibility: hidden;"></div><div class="ui-dialog-docking-zone"></div><div id="formConsultaExterna:growGestionDespachos_container" class="ui-growl ui-widget" style="z-index: 1001;"></div><div id="formConsultaExterna:inputJurisdicciones_panel" class="ui-autocomplete-panel ui-widget-content ui-corner-all ui-helper-hidden ui-shadow" style="height: auto; visibility: visible; width: 362px; z-index: 1007; top: 352.85px; left: 337.587px; display: block;"><ul class="ui-autocomplete-items ui-autocomplete-list ui-widget-content ui-widget ui-corner-all ui-helper-reset"><li class="ui-autocomplete-item ui-autocomplete-list-item ui-corner-all ui-state-highlight" data-item-value="2" data-item-label="DISCIPLINARIA / N.A."><span class="ui-autocomplete-query">DISCIPLINARIA / N.A.</span></li></ul></div><div id="formConsultaExterna:j_idt28" class="ui-tooltip ui-widget ui-widget-content ui-shadow ui-corner-all">Jurisdicción</div><div id="formConsultaExterna:inputEntidads_panel" class="ui-autocomplete-panel ui-widget-content ui-corner-all ui-helper-hidden ui-shadow"></div><div id="formConsultaExterna:j_idt31" class="ui-tooltip ui-widget ui-widget-content ui-shadow ui-corner-all">Entidad</div><div id="formConsultaExterna:inputConsejos_panel" class="ui-autocomplete-panel ui-widget-content ui-corner-all ui-helper-hidden ui-shadow"></div><div id="formConsultaExterna:j_idt34" class="ui-tooltip ui-widget ui-widget-content ui-shadow ui-corner-all">Consejo</div><div id="formConsultaExterna:inputEspecialidads_panel" class="ui-autocomplete-panel ui-widget-content ui-corner-all ui-helper-hidden ui-shadow"></div><div id="formConsultaExterna:j_idt37" class="ui-tooltip ui-widget ui-widget-content ui-shadow ui-corner-all">Especialidad</div><div id="formConsultaExterna:inputDistritos_panel" class="ui-autocomplete-panel ui-widget-content ui-corner-all ui-helper-hidden ui-shadow"></div><div id="formConsultaExterna:j_idt40" class="ui-tooltip ui-widget ui-widget-content ui-shadow ui-corner-all">Distrito</div><div id="formConsultaExterna:inputDepartamentos_panel" class="ui-autocomplete-panel ui-widget-content ui-corner-all ui-helper-hidden ui-shadow" style="height: auto; visibility: visible; width: 362px; z-index: 1003; top: 413.65px; left: 848.788px; display: block;"><ul class="ui-autocomplete-items ui-autocomplete-list ui-widget-content ui-widget ui-corner-all ui-helper-reset"><li class="ui-autocomplete-item ui-autocomplete-list-item ui-corner-all ui-state-highlight" data-item-value="05" data-item-label="ANTIOQUIA"><span class="ui-autocomplete-query">ANTIOQUIA</span></li></ul></div><div id="formConsultaExterna:j_idt43" class="ui-tooltip ui-widget ui-widget-content ui-shadow ui-corner-all">Departamento</div><div id="formConsultaExterna:inputCircuitos_panel" class="ui-autocomplete-panel ui-widget-content ui-corner-all ui-helper-hidden ui-shadow"></div><div id="formConsultaExterna:j_idt46" class="ui-tooltip ui-widget ui-widget-content ui-shadow ui-corner-all">Circuito</div><div id="formConsultaExterna:inputMunicipios_panel" class="ui-autocomplete-panel ui-widget-content ui-corner-all ui-helper-hidden ui-shadow" style="height: auto; visibility: visible; width: 362px; z-index: 1005; top: 444.05px; left: 848.788px; display: block;"><ul class="ui-autocomplete-items ui-autocomplete-list ui-widget-content ui-widget ui-corner-all ui-helper-reset"><li class="ui-autocomplete-item ui-autocomplete-list-item ui-corner-all ui-state-highlight" data-item-value="001-05" data-item-label="MEDELLÍN-ANTIOQUIA"><span class="ui-autocomplete-query">MEDELLÍN-ANTIOQUIA</span></li></ul></div><div id="formConsultaExterna:j_idt49" class="ui-tooltip ui-widget ui-widget-content ui-shadow ui-corner-all">Municipio</div><div id="formConsultaExterna:inputArea_panel" class="ui-autocomplete-panel ui-widget-content ui-corner-all ui-helper-hidden ui-shadow"></div><div id="formConsultaExterna:tablaDespachosExtInt:0:j_idt92" class="ui-tooltip ui-widget ui-widget-content ui-shadow ui-corner-all"></div><div id="formConsultaExterna:tablaDespachosExtInt:0:j_idt99" class="ui-tooltip ui-widget ui-widget-content ui-shadow ui-corner-all">Observe la ubicación del despacho en el mapa</div><div id="formConsultaExterna:tablaDespachosExtInt:1:j_idt92" class="ui-tooltip ui-widget ui-widget-content ui-shadow ui-corner-all"></div><div id="formConsultaExterna:tablaDespachosExtInt:1:j_idt99" class="ui-tooltip ui-widget ui-widget-content ui-shadow ui-corner-all">Observe la ubicación del despacho en el mapa</div><div id="formConsultaExterna:tablaDespachosExtInt:2:j_idt92" class="ui-tooltip ui-widget ui-widget-content ui-shadow ui-corner-all"></div><div id="formConsultaExterna:tablaDespachosExtInt:2:j_idt99" class="ui-tooltip ui-widget ui-widget-content ui-shadow ui-corner-all">Observe la ubicación del despacho en el mapa</div><div id="formConsultaExterna:tablaDespachosExtInt:3:j_idt92" class="ui-tooltip ui-widget ui-widget-content ui-shadow ui-corner-all">N.A</div><div id="formConsultaExterna:tablaDespachosExtInt:3:j_idt99" class="ui-tooltip ui-widget ui-widget-content ui-shadow ui-corner-all">Observe la ubicación del despacho en el mapa</div><div id="formConsultaExterna:tablaDespachosExtInt:4:j_idt92" class="ui-tooltip ui-widget ui-widget-content ui-shadow ui-corner-all">des01sptsant@cendoj.ramajudicial.gov.co </div><div id="formConsultaExterna:tablaDespachosExtInt:4:j_idt99" class="ui-tooltip ui-widget ui-widget-content ui-shadow ui-corner-all">Observe la ubicación del despacho en el mapa</div></body></html>

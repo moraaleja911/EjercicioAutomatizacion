@@ -2,6 +2,7 @@ package com.co.devco.automatizacion.stepdefinitions;
 
 import com.co.devco.automatizacion.page.DirectorioNacionalPage;
 import com.co.devco.automatizacion.page.RamaJudicialInicioPage;
+import com.co.devco.automatizacion.question.ResultadoBusqueda;
 import cucumber.api.java.Before;
 import cucumber.api.java.es.Cuando;
 import cucumber.api.java.es.Dado;
@@ -14,9 +15,11 @@ import org.openqa.selenium.Keys;
 
 import static com.co.devco.automatizacion.page.DirectorioNacionalPage.*;
 import static com.co.devco.automatizacion.page.RamaJudicialInicioPage.BTN_CONSULTAR_DIRECTORIO_NACIONAL;
+import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isClickable;
+import static org.hamcrest.CoreMatchers.containsString;
 
 public class DirectorioNacionalSteps {
     @Before
@@ -42,15 +45,21 @@ public class DirectorioNacionalSteps {
                 Enter.theValue(departamento).into(SEL_DEPARTAMENTO).thenHit(Keys.TAB),
                 WaitUntil.the(SEL_DEPARTAMENTO,isClickable()),
                 Enter.theValue(ciudad).into(SEL_CIUDAD).thenHit(Keys.TAB),
-                Enter.theValue(jurisdiccion).into(SEL_JURISDICCION).thenHit(Keys.TAB)
+                WaitUntil.the(SEL_CIUDAD,isClickable()),
+                Enter.theValue(jurisdiccion).into(SEL_JURISDICCION).thenHit(Keys.TAB)//,
+                //WaitUntil.the(SEL_JURISDICCION,isClickable()),
+                //Click.on(BTN_CONSULTAR_DIRECTORIO_NACIONAL)
 
         );
     }
 
-    @Entonces("debe poder mostrar la busqueda")
+    @Entonces("debe poder mostrar informacion de 4 despachos")
     public void MostrarDespachos() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new cucumber.api.PendingException();
+        theActorInTheSpotlight().should(seeThat("display",
+                ResultadoBusqueda.resultado(),
+                containsString("Resultados Encontrados: 4")
+
+        ));
     }
 
 
