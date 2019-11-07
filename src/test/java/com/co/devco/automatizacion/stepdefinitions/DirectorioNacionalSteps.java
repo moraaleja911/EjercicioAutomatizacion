@@ -36,19 +36,20 @@ public class DirectorioNacionalSteps {
     }
     @Cuando("selecciona Departamento \"(.*)\", Ciudad \"(.*)\" y Jurisdiccion \"(.*)\"")
     public void seleccionaDepartamentoCiudadJurisdiccion(String departamento, String ciudad, String jurisdiccion) {
-        theActorInTheSpotlight().attemptsTo(//Open.browserOn().the(DirectorioNacionalPage.class),
-                //SelectFromOptions.byVisibleText(departamento).from(SEL_DEPARTAMENTO),
-                //SelectFromOptions.byVisibleText(ciudad).from(SEL_CIUDAD)//,
-                //SelectFromOptions.byVisibleText(jurisdiccion).from(SEL_JURISDICCION)
-
+        theActorInTheSpotlight().attemptsTo(
                 //se escribe la palabra y se da enter
                 Enter.theValue(departamento).into(SEL_DEPARTAMENTO).thenHit(Keys.TAB),
                 WaitUntil.the(SEL_DEPARTAMENTO,isClickable()),
                 Enter.theValue(ciudad).into(SEL_CIUDAD).thenHit(Keys.TAB),
                 WaitUntil.the(SEL_CIUDAD,isClickable()),
-                Enter.theValue(jurisdiccion).into(SEL_JURISDICCION).thenHit(Keys.TAB)//,
-                //WaitUntil.the(SEL_JURISDICCION,isClickable()),
-                //Click.on(BTN_CONSULTAR_DIRECTORIO_NACIONAL)
+                Enter.theValue(jurisdiccion).into(SEL_JURISDICCION).thenHit(Keys.TAB),
+                WaitUntil.the(SEL_JURISDICCION,isClickable())//,
+                //Click.on(BTN_BUSCAR_DESPACHOS),
+                //WaitUntil.the(BTN_BUSCAR_DESPACHOS,isClickable()),
+                //----probar estas formas
+                //WaitUntil.the(TITLE, isVisible()
+                //WaitUntil.the(TITLE, isVisible()).forNoMoreThan(10).seconds()
+                //JavaScriptClick.on(BTN_BUSCAR_DESPACHOS)
 
         );
     }

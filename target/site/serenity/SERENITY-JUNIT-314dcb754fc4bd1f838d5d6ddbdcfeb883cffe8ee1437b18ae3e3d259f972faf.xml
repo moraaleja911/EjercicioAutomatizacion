@@ -1,8 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Busqueda Despachos" skipped="0" tests="1" time="111.46" timestamp="2019-11-06 10:00:37"><testcase name="Buscar despachos de jurisdiccion disciplinaria"><failure message="&#10;Expected: a string containing &quot;Resultados Encontrados: 4&quot;&#10;     but: was &quot;Resultados Encontrados: 5871&quot;" type="java.lang.AssertionError">
-Expected: a string containing "Resultados Encontrados: 4"
-     but: was "Resultados Encontrados: 5871"</failure><system-err>
-Expected: a string containing "Resultados Encontrados: 4"
-     but: was "Resultados Encontrados: 5871"&#13;
-com.co.devco.automatizacion.stepdefinitions.DirectorioNacionalSteps.MostrarDespachos(DirectorioNacionalSteps.java:58)&#13;
-✽.debe poder mostrar informacion de 4 despachos(src/test/resources/features/directorio_nacional.feature:12)&#13;
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Busqueda Despachos" skipped="0" tests="1" time="9.19" timestamp="2019-11-07 12:04:41"><testcase name="Buscar despachos de jurisdiccion disciplinaria"><error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&quot;frecMenu&quot;]/h4[3]/a&quot;}&#10;  (Session info: chrome=78.0.3904.87)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-K3IUS7GG', ip: '192.168.1.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.87, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\aleja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59573}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: c8cfc3b2c2e67b8be8d9a198bfcea1ae&#10;*** Element info: {Using=xpath, value=//div[@id=&quot;frecMenu&quot;]/h4[3]/a}" type="org.openqa.selenium.NoSuchElementException">no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id="frecMenu"]/h4[3]/a"}
+  (Session info: chrome=78.0.3904.87)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-K3IUS7GG', ip: '192.168.1.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.87, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\aleja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59573}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c8cfc3b2c2e67b8be8d9a198bfcea1ae
+*** Element info: {Using=xpath, value=//div[@id="frecMenu"]/h4[3]/a}</error><system-err>no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id="frecMenu"]/h4[3]/a"}
+  (Session info: chrome=78.0.3904.87)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-K3IUS7GG', ip: '192.168.1.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.87, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\aleja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59573}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c8cfc3b2c2e67b8be8d9a198bfcea1ae
+*** Element info: {Using=xpath, value=//div[@id="frecMenu"]/h4[3]/a}&#13;
+com.co.devco.automatizacion.stepdefinitions.DirectorioNacionalSteps.consultarDirectorioNacional(DirectorioNacionalSteps.java:31)&#13;
+cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)&#13;
+cucumber.runner.TestStep.executeStep(TestStep.java:63)&#13;
+cucumber.runner.TestStep.run(TestStep.java:49)&#13;
+cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)&#13;
+cucumber.runner.TestCase.run(TestCase.java:44)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:40)&#13;
 </system-err></testcase></testsuite>

@@ -131,7 +131,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 06-11-2019 22:00</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 07-11-2019 00:04</span>
     <br style="clear:left"/>
 </div>
 
@@ -168,9 +168,9 @@ Para obtener informacion basica como su direccion y telefono
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></span>
                             <span class="test-case-title">
-                                <span class="failing-color">Buscar despachos de jurisdiccion disciplinaria
+                                <span class="error-color">Buscar despachos de jurisdiccion disciplinaria
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -193,7 +193,7 @@ Para obtener informacion basica como su direccion y telefono
         <div class="table">
             <div class="row">
                 <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
-                    <span class="error-message error-message-title">Assertion error: Expected: a string containing 'Resultados Encontrados: 4' but: was 'Resultados Encontrados: 5871'</span>
+                    <span class="error-message error-message-title">No such element exception: no such element: Unable to locate element: {'method':'xpath','selector':'//div[@id='frecMenu']/h4[3]/a'}</span>
                 </div>
                 <div class="col-sm-2">
                     <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
@@ -209,11 +209,11 @@ Para obtener informacion basica como su direccion y telefono
         <div class="collapse multi-collapse" id="stacktraceModal-overall">
             <div class="card">
                 <div class="card-header">
-                    <h4>java.lang.AssertionError </h4>
+                    <h4>org.openqa.selenium.NoSuchElementException </h4>
                 </div>
                 <div class="card-body">
                     <div>
-                        <pre>com.co.devco.automatizacion.stepdefinitions.DirectorioNacionalSteps.MostrarDespachos(DirectorioNacionalSteps.java:58)<br />✽.debe poder mostrar informacion de 4 despachos(src/test/resources/features/directorio_nacional.feature:12)<br /></pre>
+                        <pre>com.co.devco.automatizacion.stepdefinitions.DirectorioNacionalSteps.consultarDirectorioNacional(DirectorioNacionalSteps.java:31)<br />cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)<br />cucumber.runner.TestStep.executeStep(TestStep.java:63)<br />cucumber.runner.TestStep.run(TestStep.java:49)<br />cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)<br />cucumber.runner.TestCase.run(TestCase.java:44)<br />cucumber.runner.Runner.runPickle(Runner.java:40)<br /></pre>
                     </div>
 
                 </div>
@@ -223,22 +223,14 @@ Para obtener informacion basica como su direccion y telefono
 
 
                 <div class="panel-body">
-                    <a href="pagesource619544532476109059.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                    <a href="pagesource8701190194661200160.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
                 </div>
             </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="e64a4b3546ecc4a13a51504c6a06de741c301a9714e7354de766578a2f5b52fd.png" title=" Dado que &quot;Alejandra&quot; esta consultando despachos de jurisdiccion disciplinaria" width="1920"/>
-                <img src="e64a4b3546ecc4a13a51504c6a06de741c301a9714e7354de766578a2f5b52fd.png" title=" Alejandra opens the Rama judicial inicio page" width="1920"/>
-                <img src="b323679afc8bda8fccffc9ec81aabd070193671787a40a84c102c52e5677da3a.png" title=" Alejandra clicks on Boton Directorio Nacional" width="1920"/>
-                <img src="b323679afc8bda8fccffc9ec81aabd070193671787a40a84c102c52e5677da3a.png" title=" Dado que &quot;Alejandra&quot; esta consultando despachos de jurisdiccion disciplinaria (completed)" width="1920"/>
-                <img src="f001a2ec12742cc1f5959b977f902c6c93270a0db2ecbae811968e7f51f5602b.png" title=" Cuando selecciona Departamento &quot;ANTIOQUIA&quot;, Ciudad &quot;MEDELL&Iacute;N-ANTIOQUIA&quot; y Jurisdiccion &quot;DISCIPLINARIA / N.A.&quot;" width="1920"/>
-                <img src="f001a2ec12742cc1f5959b977f902c6c93270a0db2ecbae811968e7f51f5602b.png" title=" Alejandra enters 'ANTIOQUIA' then hits [TAB] into Select Box de departamento" width="1920"/>
-                <img src="4249969c6e469a323d46e3b2aaa5df1611db7674e25481f40b9a0e8763ce3352.png" title=" Alejandra enters 'MEDELL&Iacute;N-ANTIOQUIA' then hits [TAB] into Select Box de ciudad" width="1920"/>
-                <img src="0b3e42e4388e1ed647132b88f02bf635eb5ee07d5531ceefa4ac472ab5a45682.png" title=" Alejandra enters 'DISCIPLINARIA / N.A.' then hits [TAB] into Select Box jurisdiccion" width="1920"/>
-                <img src="0b3e42e4388e1ed647132b88f02bf635eb5ee07d5531ceefa4ac472ab5a45682.png" title=" Cuando selecciona Departamento &quot;ANTIOQUIA&quot;, Ciudad &quot;MEDELL&Iacute;N-ANTIOQUIA&quot; y Jurisdiccion &quot;DISCIPLINARIA / N.A.&quot; (completed)" width="1920"/>
-                <img src="8ec64bfca504f726e4bf0960cfbd8bb7cc0441b1c0991402a1abe347d14a31c7.png" title=" Entonces debe poder mostrar informacion de 4 despachos" width="1920"/>
-                <img src="8ec64bfca504f726e4bf0960cfbd8bb7cc0441b1c0991402a1abe347d14a31c7.png" title=" Then display should be a string containing 'Resultados Encontrados: 4': <span class='failing-color'>FAILURE</span>" width="1920"/>
+                <img src="05f5992f4f36248adafbd4a1d275524951f98efb251322aab8fe858d14984a9e.png" title=" Dado que &quot;Alejandra&quot; esta consultando despachos de jurisdiccion disciplinaria" width="1920"/>
+                <img src="05f5992f4f36248adafbd4a1d275524951f98efb251322aab8fe858d14984a9e.png" title=" Alejandra opens the Rama judicial inicio page" width="1920"/>
+                <img src="05f5992f4f36248adafbd4a1d275524951f98efb251322aab8fe858d14984a9e.png" title=" Dado que &quot;Alejandra&quot; esta consultando despachos de jurisdiccion disciplinaria (completed): <span class='error-color'>ERROR</span>" width="1920"/>
             </div>
         </div>
 
