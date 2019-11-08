@@ -43,22 +43,18 @@ public class DirectorioNacionalSteps {
                 Enter.theValue(ciudad).into(SEL_CIUDAD).thenHit(Keys.TAB),
                 WaitUntil.the(SEL_CIUDAD,isClickable()),
                 Enter.theValue(jurisdiccion).into(SEL_JURISDICCION).thenHit(Keys.TAB),
-                WaitUntil.the(SEL_JURISDICCION,isClickable())//,
+                WaitUntil.the(SEL_JURISDICCION,isClickable())
                 //Click.on(BTN_BUSCAR_DESPACHOS),
-                //WaitUntil.the(BTN_BUSCAR_DESPACHOS,isClickable()),
-                //----probar estas formas
-                //WaitUntil.the(TITLE, isVisible()
-                //WaitUntil.the(TITLE, isVisible()).forNoMoreThan(10).seconds()
-                //JavaScriptClick.on(BTN_BUSCAR_DESPACHOS)
+                //WaitUntil.the(BTN_BUSCAR_DESPACHOS,isClickable())
 
         );
     }
 
-    @Entonces("debe poder mostrar informacion de 4 despachos")
+    @Entonces("debe poder mostrar informacion de direccion")
     public void MostrarDespachos() {
         theActorInTheSpotlight().should(seeThat("display",
                 ResultadoBusqueda.resultado(),
-                containsString("Resultados Encontrados: 4")
+                containsString("Direcci\u00f3n")
 
         ));
     }

@@ -1,0 +1,311 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Error - java.lang.NullPointerException</title>
+<style type="text/css">
+body, div, span, td, th, caption { font-family: 'Trebuchet MS', Verdana, Arial, Sans-Serif; font-size: small; }
+ul, li, pre { padding: 0; margin: 0; }
+h1 { color: #900; }
+h2, h2 span { font-size: large; color: #339; }
+h2 a { text-decoration: none; color: #339; }
+.grayBox { padding: 8px; margin: 10px 0; border: 1px solid #CCC; background-color: #f9f9f9;  }
+#error { color: #900; font-weight: bold; font-size: medium; }
+#trace, #tree, #vars { display: none; }
+code { font-size: medium; }
+#tree dl { color: #006; }
+#tree dd { margin-top: 2px; margin-bottom: 2px; }
+#tree dt { border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: "Courier New", Courier, mono; font-size: small; }
+.uicText { color: #999;  }
+table { border: 1px solid #CCC; border-collapse: collapse; border-spacing: 0px; width: 100%; text-align: left; }
+td { border: 1px solid #CCC; }
+thead tr th { padding: 2px; color: #030; background-color: #F9F9F9; }
+tbody tr td { padding: 10px 6px; }
+table caption { text-align: left; padding: 10px 0; font-size: large; }
+</style>
+<style type="text/css" media="print">
+#trace, #tree, #vars { display: block; }
+</style>
+<script language="javascript" type="text/javascript">
+function faceletstoggle(id) {
+    var style = document.getElementById(id).style;
+    if ("block" == style.display) {
+        style.display = "none";
+        document.getElementById(id+"Off").style.display = "inline";
+        document.getElementById(id+"On").style.display = "none";
+    } else {
+        style.display = "block";
+        document.getElementById(id+"Off").style.display = "none";
+        document.getElementById(id+"On").style.display = "inline";
+    }
+}
+</script>
+</head>
+<body>
+<div id="javax.faces.error.xhtml">
+<h1>An Error Occurred:</h1>
+<div id="error" class="grayBox" style="border: 1px solid #900;">java.lang.NullPointerException</div>
+<h2><a href="#" onclick="faceletstoggle('trace'); return false;"><span id="traceOff">+</span><span id="traceOn" style="display: none;">-</span> Stack Trace</a></h2>
+<div id="trace" class="grayBox"><pre><code>java.lang.NullPointerException
+</code></pre></div>
+<h2><a href="#" onclick="faceletstoggle('tree'); return false;"><span id="treeOff">+</span><span id="treeOn" style="display: none;">-</span> Component Tree</a></h2>
+<div id="tree" class="grayBox"><code><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;UIViewRoot id="j_id1" inView="true" locale="es_ES" renderKitId="HTML_BASIC" rendered="true" transient="false" viewId="/WEB-INF/errorPage.xhtml"&gt;</dt><dd style="margin-top: 2px; margin-bottom: 2px;"><span style="font-family: 'Trebuchet MS', Verdana, Arial, Sans-Serif; font-size: small;">javax_faces_location_HEAD</span><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;ComponentResourceContainer id="javax_faces_location_HEAD" inView="true" rendered="true" transient="false"&gt;</dt><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;UIOutput inView="true" rendered="true" transient="false"/&gt;</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;UIOutput inView="true" rendered="true" transient="false"/&gt;</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;UIOutput inView="true" rendered="true" transient="false"/&gt;</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;UIOutput inView="true" rendered="true" transient="false"/&gt;</dt></dl></dd><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;/ComponentResourceContainer&gt;</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;color: #999;">&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;UIOutput id="j_idt2" inView="true" rendered="true" transient="false"&gt;</dt><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;color: #999;">&lt;!-- &lt;link rel="stylesheet"
+		href="#{facesContext.externalContext.requestContextPath}/core/static/css/theme.css"
+		type="text/css" /&gt; --&gt;
+
+
+	&lt;link rel="stylesheet" href="#{facesContext.externalContext.requestContextPath}/core/static/css/estiloPropuestaPalp.css" type="text/css"/&gt;
+
+	&lt;link rel="stylesheet" href="#{facesContext.externalContext.requestContextPath}/core/static/css/jeveris.css" type="text/css"/&gt;
+
+	&lt;script type="text/javascript" src="#{facesContext.externalContext.requestContextPath}/core/static/js/mainScripts.js"/&gt;
+
+	&lt;style type="text/css"&gt;
+.ui-widget,.ui-widget .ui-widget {
+	font-size: 93% !important;
+}
+&lt;/style&gt;
+
+	&lt;title&gt;</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;color: #999;">#{msg.welcomeMessage}</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;color: #999;">&lt;/title&gt;</dt></dl></dd><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;/UIOutput&gt;</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;color: #999;">&lt;script type="text/javascript"&gt;
+
+ window.history.forward();
+ 
+ setInterval(function(){ location.reload(true) }, 1230000);
+
+&lt;/script&gt;</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;UIOutput id="j_idt7" inView="true" rendered="true" transient="false"&gt;</dt><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;color: #999;">&lt;!-- HEADER --&gt;
+
+	&lt;div style="box-shadow: 0 -5px 12px #C3C3C3"&gt;
+		&lt;div class="colorHeader"&gt;</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;ComponentRef id="j_idt9" inView="true" rendered="true" transient="false"&gt;</dt><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;color: #999;">&lt;div class="header"&gt;
+		&lt;!-- Uncomment to enable security --&gt;
+		&lt;!-- Exit --&gt;
+		
+		&lt;div style="float: left;"&gt;
+			&lt;img src="../core/static/css/images/header.gif" style="height: 100px;"/&gt;
+		&lt;/div&gt;
+		
+		&lt;div style="float: right; margin-right:2px"&gt;</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;ComponentRef id="j_idt11" inView="true" rendered="true" transient="false"&gt;</dt><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;color: #999;">&lt;div class="languages"&gt;</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;HtmlForm enctype="application/x-www-form-urlencoded" id="j_idt13" inView="true" prependId="true" rendered="true" submitted="false" transient="false"&gt;</dt><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;HtmlCommandLink action="#{menuSierjuController.getLenguage(false)}" actionExpression="#{menuSierjuController.getLenguage(false)}" disabled="false" id="j_idt14" immediate="false" inView="true" rendered="true" styleClass="hiddenUnderline" transient="false" value="Inglés"&gt;</dt><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;UIParameter disable="false" id="j_idt15" inView="true" name="lang" rendered="true" transient="false" value="en_GB"/&gt;</dt></dl></dd><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;/HtmlCommandLink&gt;</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;Spacer id="j_idt16" inView="true" rendered="true" transient="false" width="10px"/&gt;</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;HtmlCommandLink action="#{menuSierjuController.getLenguage(true)}" actionExpression="#{menuSierjuController.getLenguage(true)}" disabled="false" id="j_idt17" immediate="false" inView="true" rendered="true" styleClass="hiddenUnderline" transient="false" value="Español"&gt;</dt><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;UIParameter disable="false" id="j_idt18" inView="true" name="lang" rendered="true" transient="false" value="es_ES"/&gt;</dt></dl></dd><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;/HtmlCommandLink&gt;</dt></dl></dd><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;/HtmlForm&gt;</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;color: #999;">&lt;/div&gt;</dt></dl></dd><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;/ComponentRef&gt;</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;HtmlForm enctype="application/x-www-form-urlencoded" id="formHeader" inView="true" prependId="true" rendered="true" submitted="false" transient="false"&gt;</dt><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;color: #999;">&lt;div style="float: right; padding:10px 0px; color:black; "&gt;</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;HtmlOutputLabel escape="true" id="conectados" inView="true" rendered="true" style="display:none; float:left;padding-right:8px" transient="false" value="Usuarios Conectados:"/&gt;</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;CommandLink ajax="true" async="false" disabled="false" global="true" id="j_idt21" immediate="false" inView="true" partialSubmit="false" rendered="true" style="display:none; float:right;" title="actualizar" transient="false" update="@this" value="0"/&gt;</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;color: #999;">&lt;br/&gt;
+			&lt;/div&gt;</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;HtmlCommandLink action="#{usuarioBuscarMBean.editarUsuarioLogin()}" actionExpression="#{usuarioBuscarMBean.editarUsuarioLogin()}" disabled="false" id="nombreUsuario" immediate="false" inView="true" rendered="true" styleClass="hiddenUnderline textHeader" transient="false" value="  "/&gt;</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;Tooltip for="nombreUsuario" hideEffect="fade" id="j_idt23" inView="true" rendered="true" showEffect="fade" transient="false" value="  "/&gt;</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;HtmlCommandLink action="#{usuarioBuscarMBean.editarUsuarioLogin()}" actionExpression="#{usuarioBuscarMBean.editarUsuarioLogin()}" disabled="false" id="cargoUsuario" immediate="false" inView="true" rendered="true" styleClass="hiddenUnderline textHeader" transient="false"/&gt;</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;HtmlCommandLink action="exit" actionExpression="exit" disabled="false" id="j_idt24" immediate="false" inView="true" rendered="true" styleClass="hiddenUnderline textHeader" transient="false" value="Cerrar sesión"/&gt;</dt></dl></dd><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;/HtmlForm&gt;</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;color: #999;">&lt;/div&gt;</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;Spacer height="50px" id="j_idt26" inView="true" rendered="true" transient="false"/&gt;</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;color: #999;">&lt;/div&gt;
+&lt;!-- 	&lt;p:separator style="height:2.5px" /&gt; --&gt;</dt></dl></dd><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;/ComponentRef&gt;</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;color: #999;">&lt;/div&gt;
+	&lt;/div&gt;
+	
+	&lt;div align="center" class="dialogCargando"&gt;</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;AjaxStatus id="j_idt29" inView="true" onstart="statusDialog.show();" onsuccess="statusDialog.hide();" rendered="true" transient="false"/&gt;</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;Dialog appendToBody="false" closable="false" closeOnEscape="false" dir="ltr" draggable="false" dynamic="false" id="dialogCargando" inView="true" maximizable="false" minHeight="-2147483648" minWidth="-2147483648" minimizable="false" modal="true" rendered="true" resizable="true" showHeader="true" transient="false" visible="false" widgetVar="statusDialog"&gt;</dt><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;GraphicImage cache="true" id="j_idt30" inView="true" ismap="false" rendered="true" transient="false" url="../core/static/css/images/loading.gif" value="../core/static/css/images/loading.gif"/&gt;</dt></dl></dd><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;/Dialog&gt;</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;color: #999;">&lt;/div&gt;
+
+	&lt;div id="main" class="contentMain"&gt;
+		&lt;table style="width: 100%;"&gt;
+			&lt;tr&gt;
+				&lt;td valign="top" style="width: 15%"&gt;
+					&lt;!-- LEFT MENU --&gt;
+					&lt;div id="menu" class="left-menu"&gt;</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;ComponentRef id="j_idt32" inView="true" rendered="true" transient="false"&gt;</dt><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;HtmlForm enctype="application/x-www-form-urlencoded" id="j_idt33" inView="true" prependId="true" rendered="true" submitted="false" transient="false"&gt;</dt><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;AccordionPanel activeIndex="-1" cache="true" currentPageReportTemplate="({currentPage} of {totalPages})" dir="ltr" dynamic="false" first="0" id="j_idt34" inView="true" lazy="false" multiple="false" pageLinks="10" paginator="false" paginatorAlwaysVisible="true" paginatorPosition="both" paginatorTemplate="{FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink} {RowsPerPageDropdown}" rendered="true" rowIndex="-1" rowStatePreserved="false" rows="0" style="width:200px" transient="false" binding="#{menuSierjuController.accordionPanel}"/&gt;</dt></dl></dd><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;/HtmlForm&gt;</dt></dl></dd><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;/ComponentRef&gt;</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;Spacer height="20px" id="j_idt35" inView="true" rendered="true" transient="false"/&gt;</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;color: #999;">&lt;/div&gt;
+				&lt;/td&gt;
+				&lt;td valign="top" style="width: 85%" class="rigth"&gt;
+					&lt;!-- CONTENT --&gt;
+					&lt;div id="content" class="ui-widget container"&gt;</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;HtmlOutputText escape="true" id="j_idt37" inView="true" rendered="true" style="font-size:1.1em;color:red;" transient="false" value="Se ha producido un error"/&gt;</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;HtmlOutputText escape="true" id="j_idt38" inView="true" rendered="true" style="font-size:1.1em;color:red;" transient="false"/&gt;</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;color: #999;">&lt;div style="margin-top: 20px"&gt;</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;HtmlPanelGrid border="-2147483648" columns="1" id="j_idt40" inView="true" rendered="true" style="font-size:0.85em;" transient="false" width="100%"&gt;</dt><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;Panel closable="false" closeSpeed="500" collapsed="false" header="Detalles" id="pnl" inView="true" rendered="true" toggleOrientation="vertical" toggleSpeed="500" toggleable="true" transient="false" visible="true"&gt;</dt><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;HtmlForm enctype="application/x-www-form-urlencoded" id="j_idt41" inView="true" prependId="true" rendered="true" submitted="false" transient="false"&gt;</dt><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;HtmlOutputFormat escape="false" id="j_idt42" inView="true" rendered="true" transient="false"&gt;</dt><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;color: #999;">#{genericErrorBean.summary}</dt></dl></dd><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;/HtmlOutputFormat&gt;</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;color: #999;">&lt;br/&gt;</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;HtmlOutputFormat escape="false" id="j_idt45" inView="true" rendered="true" transient="false"&gt;</dt><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;color: #999;">#{genericErrorBean.details}</dt></dl></dd><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;/HtmlOutputFormat&gt;</dt></dl></dd><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;/HtmlForm&gt;</dt></dl></dd><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;/Panel&gt;</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;Panel closable="false" closeSpeed="500" collapsed="true" header="Pila del error " id="pn2" inView="true" rendered="true" toggleOrientation="vertical" toggleSpeed="500" toggleable="true" transient="false" visible="true"&gt;</dt><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;HtmlOutputText escape="false" id="j_idt47" inView="true" rendered="true" transient="false" value="Exception thrown in state 'consultaExternaDespachosView' of flow 'consultaExternaDespachos-flow'"/&gt;</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;color: #999;">&lt;br/&gt;</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;HtmlOutputText escape="false" id="j_idt49" inView="true" rendered="true" transient="false" value="org.springframework.webflow.execution.FlowExecutionException: Exception thrown in state 'consultaExternaDespachosView' of flow 'consultaExternaDespachos-flow'
+	at org.springframework.webflow.engine.impl.FlowExecutionImpl.wrap(FlowExecutionImpl.java:571)
+	at org.springframework.webflow.engine.impl.FlowExecutionImpl.resume(FlowExecutionImpl.java:262)
+	at org.springframework.webflow.executor.FlowExecutorImpl.resumeExecution(FlowExecutorImpl.java:169)
+	at org.springframework.webflow.mvc.servlet.FlowHandlerAdapter.handle(FlowHandlerAdapter.java:183)
+	at org.springframework.faces.webflow.JsfFlowHandlerAdapter.handle(JsfFlowHandlerAdapter.java:48)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:923)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:852)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:882)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:789)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:751)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:844)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:280)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:254)
+	at weblogic.servlet.internal.StubSecurityHelper.invokeServlet(StubSecurityHelper.java:136)
+	at weblogic.servlet.internal.ServletStubImpl.execute(ServletStubImpl.java:346)
+	at weblogic.servlet.internal.TailFilter.doFilter(TailFilter.java:25)
+	at weblogic.servlet.internal.FilterChainImpl.doFilter(FilterChainImpl.java:79)
+	at org.primefaces.webapp.filter.FileUploadFilter.doFilter(FileUploadFilter.java:79)
+	at weblogic.servlet.internal.FilterChainImpl.doFilter(FilterChainImpl.java:79)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:118)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:84)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at gov.csj.sierju.web.util.TimeOut.doFilter(TimeOut.java:67)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:103)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:113)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:54)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:45)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilter(BasicAuthenticationFilter.java:150)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:183)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:192)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:160)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+	at weblogic.servlet.internal.FilterChainImpl.doFilter(FilterChainImpl.java:79)
+	at com.jeveris.web.core.filter.log.PerformanceLogFilter.doFilter(PerformanceLogFilter.java:59)
+	at weblogic.servlet.internal.FilterChainImpl.doFilter(FilterChainImpl.java:79)
+	at weblogic.servlet.internal.RequestEventsFilter.doFilter(RequestEventsFilter.java:27)
+	at weblogic.servlet.internal.FilterChainImpl.doFilter(FilterChainImpl.java:79)
+	at weblogic.servlet.internal.WebAppServletContext$ServletInvocationAction.wrapRun(WebAppServletContext.java:3436)
+	at weblogic.servlet.internal.WebAppServletContext$ServletInvocationAction.run(WebAppServletContext.java:3402)
+	at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:321)
+	at weblogic.security.service.SecurityManager.runAs(SecurityManager.java:120)
+	at weblogic.servlet.provider.WlsSubjectHandle.run(WlsSubjectHandle.java:57)
+	at weblogic.servlet.internal.WebAppServletContext.doSecuredExecute(WebAppServletContext.java:2285)
+	at weblogic.servlet.internal.WebAppServletContext.securedExecute(WebAppServletContext.java:2201)
+	at weblogic.servlet.internal.WebAppServletContext.execute(WebAppServletContext.java:2179)
+	at weblogic.servlet.internal.ServletRequestImpl.run(ServletRequestImpl.java:1572)
+	at weblogic.servlet.provider.ContainerSupportProviderImpl$WlsRequestExecutor.run(ContainerSupportProviderImpl.java:255)
+	at weblogic.work.ExecuteThread.execute(ExecuteThread.java:311)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:263)
+Caused by: java.lang.NumberFormatException: For input string: "DISCIPLINARIA / N.A."
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:441)
+	at java.lang.Long.parseLong(Long.java:483)
+	at gov.csj.sierju.web.converter.JurisdiccionConverter.getAsObject(JurisdiccionConverter.java:21)
+	at org.primefaces.component.autocomplete.AutoCompleteRenderer.getConvertedValue(AutoCompleteRenderer.java:570)
+	at javax.faces.component.UIInput.getConvertedValue(UIInput.java:1030)
+	at javax.faces.component.UIInput.validate(UIInput.java:960)
+	at javax.faces.component.UIInput.executeValidate(UIInput.java:1233)
+	at javax.faces.component.UIInput.processValidators(UIInput.java:698)
+	at javax.faces.component.UIComponentBase.processValidators(UIComponentBase.java:1220)
+	at javax.faces.component.UIComponentBase.processValidators(UIComponentBase.java:1220)
+	at org.primefaces.component.panel.Panel.processValidators(Panel.java:297)
+	at com.sun.faces.context.PartialViewContextImpl$PhaseAwareVisitCallback.visit(PartialViewContextImpl.java:506)
+	at com.sun.faces.component.visit.PartialVisitContext.invokeVisitCallback(PartialVisitContext.java:183)
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1612)
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1623)
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1623)
+	at javax.faces.component.UIForm.visitTree(UIForm.java:371)
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1623)
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1623)
+	at com.sun.faces.context.PartialViewContextImpl.processComponents(PartialViewContextImpl.java:378)
+	at com.sun.faces.context.PartialViewContextImpl.processPartial(PartialViewContextImpl.java:253)
+	at javax.faces.context.PartialViewContextWrapper.processPartial(PartialViewContextWrapper.java:183)
+	at javax.faces.context.PartialViewContextWrapper.processPartial(PartialViewContextWrapper.java:183)
+	at javax.faces.component.UIViewRoot.processValidators(UIViewRoot.java:1162)
+	at org.springframework.faces.webflow.FlowLifecycle.invokePhase(FlowLifecycle.java:121)
+	at org.springframework.faces.webflow.FlowLifecycle.execute(FlowLifecycle.java:70)
+	at org.springframework.faces.webflow.JsfView.processUserEvent(JsfView.java:120)
+	at org.springframework.webflow.engine.ViewState.handleEvent(ViewState.java:226)
+	at org.springframework.webflow.engine.ViewState.resume(ViewState.java:196)
+	at org.springframework.webflow.engine.Flow.resume(Flow.java:545)
+	at org.springframework.webflow.engine.impl.FlowExecutionImpl.resume(FlowExecutionImpl.java:258)
+	... 62 more
+"/&gt;</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;color: #999;">&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;HtmlOutputText escape="false" id="j_idt51" inView="true" rendered="true" transient="false" value="For input string: "DISCIPLINARIA / N.A.""/&gt;</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;color: #999;">&lt;br/&gt;</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;HtmlOutputText escape="false" id="j_idt53" inView="true" rendered="true" transient="false" value="java.lang.NumberFormatException: For input string: "DISCIPLINARIA / N.A."
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:441)
+	at java.lang.Long.parseLong(Long.java:483)
+	at gov.csj.sierju.web.converter.JurisdiccionConverter.getAsObject(JurisdiccionConverter.java:21)
+	at org.primefaces.component.autocomplete.AutoCompleteRenderer.getConvertedValue(AutoCompleteRenderer.java:570)
+	at javax.faces.component.UIInput.getConvertedValue(UIInput.java:1030)
+	at javax.faces.component.UIInput.validate(UIInput.java:960)
+	at javax.faces.component.UIInput.executeValidate(UIInput.java:1233)
+	at javax.faces.component.UIInput.processValidators(UIInput.java:698)
+	at javax.faces.component.UIComponentBase.processValidators(UIComponentBase.java:1220)
+	at javax.faces.component.UIComponentBase.processValidators(UIComponentBase.java:1220)
+	at org.primefaces.component.panel.Panel.processValidators(Panel.java:297)
+	at com.sun.faces.context.PartialViewContextImpl$PhaseAwareVisitCallback.visit(PartialViewContextImpl.java:506)
+	at com.sun.faces.component.visit.PartialVisitContext.invokeVisitCallback(PartialVisitContext.java:183)
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1612)
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1623)
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1623)
+	at javax.faces.component.UIForm.visitTree(UIForm.java:371)
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1623)
+	at javax.faces.component.UIComponent.visitTree(UIComponent.java:1623)
+	at com.sun.faces.context.PartialViewContextImpl.processComponents(PartialViewContextImpl.java:378)
+	at com.sun.faces.context.PartialViewContextImpl.processPartial(PartialViewContextImpl.java:253)
+	at javax.faces.context.PartialViewContextWrapper.processPartial(PartialViewContextWrapper.java:183)
+	at javax.faces.context.PartialViewContextWrapper.processPartial(PartialViewContextWrapper.java:183)
+	at javax.faces.component.UIViewRoot.processValidators(UIViewRoot.java:1162)
+	at org.springframework.faces.webflow.FlowLifecycle.invokePhase(FlowLifecycle.java:121)
+	at org.springframework.faces.webflow.FlowLifecycle.execute(FlowLifecycle.java:70)
+	at org.springframework.faces.webflow.JsfView.processUserEvent(JsfView.java:120)
+	at org.springframework.webflow.engine.ViewState.handleEvent(ViewState.java:226)
+	at org.springframework.webflow.engine.ViewState.resume(ViewState.java:196)
+	at org.springframework.webflow.engine.Flow.resume(Flow.java:545)
+	at org.springframework.webflow.engine.impl.FlowExecutionImpl.resume(FlowExecutionImpl.java:258)
+	at org.springframework.webflow.executor.FlowExecutorImpl.resumeExecution(FlowExecutorImpl.java:169)
+	at org.springframework.webflow.mvc.servlet.FlowHandlerAdapter.handle(FlowHandlerAdapter.java:183)
+	at org.springframework.faces.webflow.JsfFlowHandlerAdapter.handle(JsfFlowHandlerAdapter.java:48)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:923)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:852)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:882)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:789)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:751)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:844)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:280)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:254)
+	at weblogic.servlet.internal.StubSecurityHelper.invokeServlet(StubSecurityHelper.java:136)
+	at weblogic.servlet.internal.ServletStubImpl.execute(ServletStubImpl.java:346)
+	at weblogic.servlet.internal.TailFilter.doFilter(TailFilter.java:25)
+	at weblogic.servlet.internal.FilterChainImpl.doFilter(FilterChainImpl.java:79)
+	at org.primefaces.webapp.filter.FileUploadFilter.doFilter(FileUploadFilter.java:79)
+	at weblogic.servlet.internal.FilterChainImpl.doFilter(FilterChainImpl.java:79)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:118)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:84)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at gov.csj.sierju.web.util.TimeOut.doFilter(TimeOut.java:67)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:103)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:113)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:54)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:45)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilter(BasicAuthenticationFilter.java:150)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:183)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:192)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:160)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+	at weblogic.servlet.internal.FilterChainImpl.doFilter(FilterChainImpl.java:79)
+	at com.jeveris.web.core.filter.log.PerformanceLogFilter.doFilter(PerformanceLogFilter.java:59)
+	at weblogic.servlet.internal.FilterChainImpl.doFilter(FilterChainImpl.java:79)
+	at weblogic.servlet.internal.RequestEventsFilter.doFilter(RequestEventsFilter.java:27)
+	at weblogic.servlet.internal.FilterChainImpl.doFilter(FilterChainImpl.java:79)
+	at weblogic.servlet.internal.WebAppServletContext$ServletInvocationAction.wrapRun(WebAppServletContext.java:3436)
+	at weblogic.servlet.internal.WebAppServletContext$ServletInvocationAction.run(WebAppServletContext.java:3402)
+	at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:321)
+	at weblogic.security.service.SecurityManager.runAs(SecurityManager.java:120)
+	at weblogic.servlet.provider.WlsSubjectHandle.run(WlsSubjectHandle.java:57)
+	at weblogic.servlet.internal.WebAppServletContext.doSecuredExecute(WebAppServletContext.java:2285)
+	at weblogic.servlet.internal.WebAppServletContext.securedExecute(WebAppServletContext.java:2201)
+	at weblogic.servlet.internal.WebAppServletContext.execute(WebAppServletContext.java:2179)
+	at weblogic.servlet.internal.ServletRequestImpl.run(ServletRequestImpl.java:1572)
+	at weblogic.servlet.provider.ContainerSupportProviderImpl$WlsRequestExecutor.run(ContainerSupportProviderImpl.java:255)
+	at weblogic.work.ExecuteThread.execute(ExecuteThread.java:311)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:263)
+"/&gt;</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;color: #999;">&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</dt></dl></dd><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;/Panel&gt;</dt></dl></dd><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;/HtmlPanelGrid&gt;</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;color: #999;">&lt;/div&gt;</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;Spacer height="20px" id="j_idt56" inView="true" rendered="true" transient="false"/&gt;</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;color: #999;">&lt;/div&gt;
+				&lt;/td&gt;
+			&lt;/tr&gt;
+		&lt;/table&gt;
+
+
+	&lt;/div&gt;
+	&lt;!-- FOOTER --&gt;
+	&lt;div id="footer" class="footer" style="display: table;"&gt;</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;ComponentRef id="j_idt58" inView="true" rendered="true" transient="false"&gt;</dt><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;color: #999;">&lt;br/&gt;
+	&lt;div&gt;#{msg.footerMessage}&lt;/div&gt;
+	&lt;br/&gt;</dt></dl></dd><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;/ComponentRef&gt;</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;color: #999;">&lt;/div&gt;</dt></dl></dd><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;/UIOutput&gt;</dt></dl></dd><dd style="margin-top: 2px; margin-bottom: 2px;"><dl style="color: #006;"><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;color: #999;">&lt;/html&gt;</dt></dl></dd><dt style="border: 1px solid #DDD; padding: 4px; border-left: 2px solid #666; font-family: 'Courier New', Courier, mono; font-size: small;">&lt;/UIViewRoot&gt;</dt></dl></code></div>
+<h2><a href="#" onclick="faceletstoggle('vars'); return false;"><span id="varsOff">+</span><span id="varsOn" style="display: none;">-</span> Scoped Variables</a></h2>
+<div id="vars"><table style="border: 1px solid #CCC; border-collapse: collapse; border-spacing: 0px; width: 100%; text-align: left;"><caption style="text-align: left; padding: 10px 0; font-size: large;">Request Parameters</caption><thead stype="padding: 2px; color: #030; background-color: #F9F9F9;"><tr style="padding: 2px; color: #030; background-color: #F9F9F9;"><th style="padding: 2px; color: #030; background-color: #F9F9F9;width: 10%; ">Name</th><th style="padding: 2px; color: #030; background-color: #F9F9F9;width: 90%; ">Value</th></tr></thead><tbody style="padding: 10px 6px;"><tr style="padding: 10px 6px;"><td style="padding: 10px 6px;">execution</td><td>e1s2</td></tr></tbody></table><table style="border: 1px solid #CCC; border-collapse: collapse; border-spacing: 0px; width: 100%; text-align: left;"><caption style="text-align: left; padding: 10px 0; font-size: large;">View Attributes</caption><thead stype="padding: 2px; color: #030; background-color: #F9F9F9;"><tr style="padding: 2px; color: #030; background-color: #F9F9F9;"><th style="padding: 2px; color: #030; background-color: #F9F9F9;width: 10%; ">Name</th><th style="padding: 2px; color: #030; background-color: #F9F9F9;width: 90%; ">Value</th></tr></thead><tbody style="padding: 10px 6px;"><tr style="padding: 10px 6px;"><td colspan="2" style="padding: 10px 6px;"><em>None</em></td></tr></tbody></table><table style="border: 1px solid #CCC; border-collapse: collapse; border-spacing: 0px; width: 100%; text-align: left;"><caption style="text-align: left; padding: 10px 0; font-size: large;">Request Attributes</caption><thead stype="padding: 2px; color: #030; background-color: #F9F9F9;"><tr style="padding: 2px; color: #030; background-color: #F9F9F9;"><th style="padding: 2px; color: #030; background-color: #F9F9F9;width: 10%; ">Name</th><th style="padding: 2px; color: #030; background-color: #F9F9F9;width: 90%; ">Value</th></tr></thead><tbody style="padding: 10px 6px;"><tr style="padding: 10px 6px;"><td style="padding: 10px 6px;">__spring_security_filterSecurityInterceptor_filterApplied</td><td>true</td></tr><tr style="padding: 10px 6px;"><td style="padding: 10px 6px;">__spring_security_scpf_applied</td><td>true</td></tr><tr style="padding: 10px 6px;"><td style="padding: 10px 6px;">__spring_security_session_mgmt_filter_applied</td><td>true</td></tr><tr style="padding: 10px 6px;"><td style="padding: 10px 6px;">genericErrorBean</td><td>com.jeveris.web.core.error.GenericErrorUIBean@6edd2b0</td></tr></tbody></table><table style="border: 1px solid #CCC; border-collapse: collapse; border-spacing: 0px; width: 100%; text-align: left;"><caption style="text-align: left; padding: 10px 0; font-size: large;">Flash Attributes</caption><thead stype="padding: 2px; color: #030; background-color: #F9F9F9;"><tr style="padding: 2px; color: #030; background-color: #F9F9F9;"><th style="padding: 2px; color: #030; background-color: #F9F9F9;width: 10%; ">Name</th><th style="padding: 2px; color: #030; background-color: #F9F9F9;width: 90%; ">Value</th></tr></thead><tbody style="padding: 10px 6px;"><tr style="padding: 10px 6px;"><td colspan="2" style="padding: 10px 6px;"><em>None</em></td></tr></tbody></table><table style="border: 1px solid #CCC; border-collapse: collapse; border-spacing: 0px; width: 100%; text-align: left;"><caption style="text-align: left; padding: 10px 0; font-size: large;">Session Attributes</caption><thead stype="padding: 2px; color: #030; background-color: #F9F9F9;"><tr style="padding: 2px; color: #030; background-color: #F9F9F9;"><th style="padding: 2px; color: #030; background-color: #F9F9F9;width: 10%; ">Name</th><th style="padding: 2px; color: #030; background-color: #F9F9F9;width: 90%; ">Value</th></tr></thead><tbody style="padding: 10px 6px;"><tr style="padding: 10px 6px;"><td style="padding: 10px 6px;">GLOBAL_RENDER_ERROR</td><td>org.springframework.webflow.execution.FlowExecutionException: Exception thrown in state 'consultaExternaDespachosView' of flow 'consultaExternaDespachos-flow'</td></tr><tr style="padding: 10px 6px;"><td style="padding: 10px 6px;">consultaDirectorioJudicialMBean</td><td>gov.csj.sierju.web.action.adm.ConsultaDirectorioJudicialMBean@67a3245d</td></tr><tr style="padding: 10px 6px;"><td style="padding: 10px 6px;">menuSierjuController</td><td>gov.csj.sierju.web.action.gral.MenuSierjuController@7a88ad3</td></tr><tr style="padding: 10px 6px;"><td style="padding: 10px 6px;">webflowConversationContainer</td><td>org.springframework.webflow.conversation.impl.ConversationContainer@4a322692</td></tr></tbody></table><table style="border: 1px solid #CCC; border-collapse: collapse; border-spacing: 0px; width: 100%; text-align: left;"><caption style="text-align: left; padding: 10px 0; font-size: large;">Application Attributes</caption><thead stype="padding: 2px; color: #030; background-color: #F9F9F9;"><tr style="padding: 2px; color: #030; background-color: #F9F9F9;"><th style="padding: 2px; color: #030; background-color: #F9F9F9;width: 10%; ">Name</th><th style="padding: 2px; color: #030; background-color: #F9F9F9;width: 90%; ">Value</th></tr></thead><tbody style="padding: 10px 6px;"><tr style="padding: 10px 6px;"><td style="padding: 10px 6px;">csfcff</td><td>com.sun.faces.context.flash.ELFlash@79ccda87</td></tr></tbody></table></div>
+<div class="grayBox" style="text-align: right; color: #666;">Nov 7, 2019 6:33:52 PM - Generated by Mojarra/Facelets</div>
+</div>
+
+
+</body></html>
