@@ -37,7 +37,7 @@ public class DirectorioNacionalSteps {
     @Cuando("selecciona Departamento \"(.*)\", Ciudad \"(.*)\" y Jurisdiccion \"(.*)\"")
     public void seleccionaDepartamentoCiudadJurisdiccion(String departamento, String ciudad, String jurisdiccion) {
         theActorInTheSpotlight().attemptsTo(
-                //se escribe la palabra y se da enter
+                //se escribe la palabra y se da tab
                 Enter.theValue(departamento).into(SEL_DEPARTAMENTO).thenHit(Keys.TAB),
                 WaitUntil.the(SEL_DEPARTAMENTO,isClickable()),
                 Enter.theValue(ciudad).into(SEL_CIUDAD).thenHit(Keys.TAB),
